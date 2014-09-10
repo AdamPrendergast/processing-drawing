@@ -38,6 +38,5 @@ void drawSpiral() {
 	settings.RadiusIncrement = 1;
 	settings.EnableNoise = true;
 	Spiral spiral = drawingFactory.Spiral(settings);
-	spiral.EnableNoise();
 	spiral.Draw();
 }
